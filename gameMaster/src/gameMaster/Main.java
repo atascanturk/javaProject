@@ -31,10 +31,10 @@ public class Main {
 		
 	
 		Gamer gamer2= new Gamer(1,250);
-		gamer2.setFirstName("Hasan Cantürk");
+		gamer2.setFirstName("Cantürk");
 		gamer2.setLastName("Ataş");
 		gamer2.setDateOfBirth(LocalDate.of(1994, 11, 03));
-		gamer2.setIdentityNumber("21509487444");
+		gamer2.setIdentityNumber("11111111111");
 		
 		User[] users = {gamer1,gamer2};
 		
