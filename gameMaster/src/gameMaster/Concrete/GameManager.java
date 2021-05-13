@@ -13,8 +13,8 @@ public class GameManager implements GameService {
 	UserCheckService userCheckService;
 
 	
-public GameManager(MernisServiceFakeAdapter mernisServiceFakeAdapter) {
-		this.userCheckService=mernisServiceFakeAdapter;
+public GameManager(UserCheckService userCheckService ) {
+		this.userCheckService=userCheckService;
 	}
 	
 	@Override
